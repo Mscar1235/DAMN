@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <script src="DAMNScript.js"></script>
+    <link rel="stylesheet" href="DAMNStyles.css" />
+    <title>Cryptic Lyrics</title>
+    <style>
+        h1{
+            margin: 50px;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+    
+    
+</head>
+
+<body>
+    <div class="header">
+        <button onclick="window.location.href='DAMNHOME.html';">HOME</button>
+        <div class="dropdown" data-dropdown>
+            <button class="menu" data-dropdown-button>LYRICAL ANALYSIS BY SONG</button>
+            <div class="dropdown-menu">
+                <a href="Blood.html"> BLOOD.<br /></a>
+                <a href="DNA.html">DNA.<br /></a>
+                <a href="Yah.html">YAH.<br /></a>
+                <a href="Element.html"> ELEMENT.<br /></a>
+                <a href="Feel.html">FEEL.<br /></a>
+                <a href="Loyalty.html">LOYALTY.<br /></a>
+                <a href="Pride.html"> PRIDE.<br /></a>
+                <a href="Humble.html"> HUMBLE.<br /></a>
+                <a href="Lust.html">LUST.<br /></a>
+                <a href="Love.html"> LOVE.<br /></a>
+                <a href="XXX.html">XXX.<br /></a>
+                <a href="Fear.html">FEAR.<br /></a>
+                <a href="God.html">GOD.<br /></a>
+                <a href="Duckworth.html">DUCKWORTH.<br /></a>
+            </div>
+        </div>
+        <button onclick="window.location.href='DAMNLYRICANAL.html';">LYRICAL ANALYSIS OVERVIEW GRAPHIC</button>
+        <button onclick="window.location.href='DAMNart.html';">AI GENERATED ART GALLERY</button>
+        <button onclick="window.location.href='ExploreLyric.html';">EXPLORE CRYPTIC LYRICS</button>
+    </div>
+    <div id="cryexpli">
+        In DAMN. there are sections of songs which are played in reverse. Below, you can input lyrics and see what they look like reversed.
+    </div>
+
+    <div id="lyricform">
+        <form>
+            <input id="lyricinput" placeholder="Enter lyrics here" type="text">
+            <input id="reverse" type="submit" />
+        </form>
+    </div>
+    <h1>Origional:</h1>
+
+    <p id="orig"></p>
+
+    <h1>Reversed:</h1>
+
+    <p id="outrev"></p>
+</body>
+</html>

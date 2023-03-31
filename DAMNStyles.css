@@ -1,0 +1,216 @@
+﻿
+
+
+body {
+    background-color: black;
+}
+
+button {
+    background-color: black;
+    color: crimson;
+}
+
+.header {
+    background-color: black;
+    width: fit-content;
+    display: flex;
+    align-content: center;
+    gap: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    color: crimson;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+    width: 700px;
+}
+
+.menu {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    pointer-events: none;
+    font-size: 20px;
+    padding: 25px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    position: absolute;
+    left: 0;
+    top: 90%;
+    background-color: crimson;
+    width: inherit;
+    opacity: 0;
+    transition: opacity 2000ms ease-in-out;
+}
+
+.dropdown.active > .menu + .dropdown-menu {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+a{
+    color: black;
+}
+.HomeDesc{
+    margin-bottom: 50px;
+}
+
+.songtitle{
+    height: 33%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: crimson;
+    font-size: 75px;
+}
+
+.songdiscr{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.mid{
+    height: 33%;
+    background-color: darkgray;
+    padding-bottom: 50px;
+}
+.lingu{
+    text-align: center;
+    font-size: 60px;
+}
+
+.stats{
+    border: solid black;
+    text-align: center;
+    margin-right: auto;
+    margin-left:auto;
+    border-collapse: collapse;
+}
+th{
+    border: solid black;
+    text-align: center;
+    color: crimson;
+    font-size:40px;
+    margin:20px;
+    padding:10px;
+}
+
+td{
+    border: solid black;
+    font-size: 15px;
+    padding: 10px;
+}
+.lyricshead{
+    color: crimson;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.genius{
+    text-align: center;
+    color: yellow;
+    font-size: 20px;
+}
+.lyrics{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.alert{
+    color: red;
+    text-align: center;
+
+}
+.graphic{
+    align-self: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    text-align:center;
+    border: 5px solid crimson;
+}
+
+.labels{
+    color: crimson;
+
+}
+
+.lpop{
+    color: rebeccapurple;
+}
+
+.mpop{
+    color: darkgreen;
+}
+.pop{
+    border: 2px dashed crimson;
+}
+
+.gallery{
+    border: thick dashed crimson;
+    margin-bottom: 100px;
+}
+
+.ai{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.arttitle{
+    font-size: 50px;
+}
+
+#cryexpli{
+    font-size: 30px;
+    color: white;
+    margin: 150px;
+    text-align: center;
+}
+
+
+#lyricform{
+    padding: 10px;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
+
+#outputorigional{
+
+}
+
+#orig{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+#outrev {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+#lyricinput {
+    padding: 10px;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
